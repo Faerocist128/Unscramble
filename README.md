@@ -9,4 +9,5 @@ Another criteria must be that amx^bm = anx^bn is never true for any pair of term
 
 Using an unordered map of (double, array) pairs, words from the word list are pushed into arrays that contain all words with the same numerical value (are all scrambled versions of each other). When the user inputs a string, the numerical value is calculated using the algorithm in O(N) time (for loop through characters). Then, the array of all possible words is pulled from the unordered map in O(1) time, and each item is printed.
 
-That's it.
+Citations:
+The word file "words_alpha.txt" was obtained from dwyl's github repository which can be found at https://github.com/dwyl/english-words.
